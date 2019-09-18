@@ -1,0 +1,46 @@
+@import "bootstrap";
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background: url("grey") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #E30C38;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+
+}
+
+.jumbotron {
+   margin: 20px;
+  padding: 20px;
+  background: #4E5759
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+.booyah-box2{
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #F4EBEB;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+
+}
