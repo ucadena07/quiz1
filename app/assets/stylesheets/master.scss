@@ -1,46 +1,73 @@
 @import "bootstrap";
 
 h1, h2 {
-  color: white;
+  color: red;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
-  background: url("grey") no-repeat center center fixed;
-  background-size: cover;
+  margin: 0;
 }
 
-.booyah-box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #E30C38;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+footer {
 
+  padding: 10px;
+  
+  background: black;
+  color: white;
+  text-align: right;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
 }
 
-.jumbotron {
-   margin: 20px;
+.column {
+  
+  
+  border: 10px solid black;
+  padding: 50px;
+  margin: 20px
+}
+
+
+section {
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  background: white;
+  text-align: center;
+  }
+
+
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
   padding: 20px;
-  background: #4E5759
 }
 
-h3 {
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-ul {
-  text-align: center;
-  list-style-type: none;
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.booyah-box2{
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #F4EBEB;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 
-}
